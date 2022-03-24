@@ -18,9 +18,9 @@ def in_time(start, end, time_list):
         return True
 
     for time in time_list:
-        if time[0] <= start < time[-1]:
+        if start in range(time[0], time[-1]):
             return False
-        if time[0] < end <= time[-1]:
+        if end in range(time[0], time[-1]):
             return False
 
     return True
