@@ -9,7 +9,7 @@ def solve():
     count = 0
 
     for coin in coin_list:
-        if value > coin:
+        if value >= coin:
             quotient, value = divmod(value, coin)
             count += quotient
 
