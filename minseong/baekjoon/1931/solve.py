@@ -1,29 +1,23 @@
 def solve():
     N = int(input())
-    time_list = []
+    assert 1 <= N <= 100000
 
+    time_list = []
     for n in range(N):
         start_time, end_time = map(int, input().split())
+        time_list.append((start_time, end_time))
 
-        if in_time(start_time, end_time, time_list):
-            time_list.append((start_time, end_time))
-        else:
-            continue
+    time_list.sort(key=lambda x: x[0])
+    time_list.sort(key=lambda x: x[1])
 
-    return len(time_list)
+    count = 1
+    end = time_list[0][1]
+    for i in range(1, N):
+        if end <= time_list[i][0]:
+            end = time_list[i][1]
+            count += 1
 
-
-def in_time(start, end, time_list):
-    if len(time_list) == 0:
-        return True
-
-    for time in time_list:
-        if start in range(time[0], time[-1]):
-            return False
-        if end in range(time[0], time[-1]):
-            return False
-
-    return True
+    return count
 
 
 if __name__ == '__main__':
