@@ -22,18 +22,19 @@ def dfs(graph, discovered=None):
 
 
 def bfs(graph, discovered=None):
+    queue_list = [discovered[0]]
+
     while True:
-        if len(graph) <= 0:
+        if len(queue_list) <= 0:
             break
 
-        sub_graph = graph[0]
-        graph = graph[1:]
-        for i, edge in enumerate(sub_graph):
-            if edge == 1:
-                sub_graph[i] = 0
+        element = queue_list[0]
+        queue_list = queue_list[1:]
 
-                if i not in discovered:
-                    discovered.append(i)
+        for i, edge in enumerate(graph[element]):
+            if edge == 1 and i not in discovered:
+                discovered.append(i)
+                queue_list.append(i)
 
     return discovered
 
