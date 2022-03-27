@@ -4,7 +4,7 @@ def solve():
     start_node = 1
     graph = from_adjmatrix(pc_quantity, edges_len)
 
-    infected_count = track_warm(graph, [start_node]) - 1  # to ignore 1st pc and index 0
+    infected_count = track_warm(graph, [start_node]) - 1  # to ignore 1st pc
 
     return infected_count
 
