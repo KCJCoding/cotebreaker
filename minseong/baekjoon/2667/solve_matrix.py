@@ -1,32 +1,55 @@
-
-
-# Check near nodes (NSWE) -> Make edge -> Trace graph from never traced nodes
-
-
 def solve():
     N = int(input())
-    strict_map = None
+    strict_map = list()
     assert 5 <= N <= 25
 
     for n in range(N):
-        strict_map = [int(value) for value in input()]
+        strict_map.append([int(value) for value in input()])
 
     assert isinstance(strict_map, list)
 
     graph, nodes = make_graph(strict_map)
+    count_list = list()
 
     while True:
-        i, j = nodes[0]
-
-        if len(nodes) > 0:
-            nodes = nodes[1:]
-        else:
+        if len(nodes) <= 0:
             break
+
+        node = nodes[0]
+        count, nodes = bfs(graph, [node], nodes)
+        count_list.append(count)
+
+    count_list.sort()
+    print(len(count_list))
+    for count in count_list:
+        print(count)
+
+
+def bfs(graph, discovered=None, nodes=None):
+    start_node = discovered[0]
+    nodes.remove(start_node)
+    task_list = [start_node]
+
+    while True:
+        task = task_list[0]
+
+        for index, edge in enumerate(graph[task]):
+            if edge == 1 and index not in discovered:
+                task_list.append(index)
+                discovered.append(index)
+                nodes.remove(index)
+
+        if len(task_list) <= 1:
+            break
+        else:
+            task_list = task_list[1:]
+
+    return len(discovered), nodes
 
 
 def make_graph(strict_map):
     N = len(strict_map)
-    graph = [[0] * N for n in range(N)]
+    graph = [[0] * (N * N) for n in range((N * N))]
     nodes = list()
 
     for i in range(len(strict_map)):
