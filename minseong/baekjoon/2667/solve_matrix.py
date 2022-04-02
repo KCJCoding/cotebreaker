@@ -34,22 +34,28 @@ def make_graph(strict_map):
             apartment = strict_map[i][j]
 
             if apartment == 1:
-                graph = find_neighbor(strict_map, i, j, graph)
-                nodes.append((i, j))
+                node_number = i * N + j
+                nodes.append(node_number)
+
+                for neighbor in find_neighbors(strict_map, i, j):
+                    n1 = node_number
+                    n2 = neighbor
+                    graph[n1][n2] = 1
+                    graph[n2][n1] = 1
 
     return graph, nodes
 
 
-def find_neighbor(strict_map, i, j, graph):
+def find_neighbors(strict_map, i, j):
     N = len(strict_map)
+    neighbors = list()
 
     for neighbor_i, neighbor_j in [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]:
         if check_neighbor(strict_map, neighbor_i, neighbor_j):
-            num_current = i * N + j
             num_neighbor = neighbor_i * N + neighbor_j
-            graph = make_edge(graph, num_current, num_neighbor)
+            neighbors.append(num_neighbor)
 
-    return graph
+    return neighbors
 
 
 def check_neighbor(strict_map, i, j):
@@ -62,13 +68,6 @@ def check_neighbor(strict_map, i, j):
             return True
 
     return False
-
-
-def make_edge(graph, n1, n2):
-    graph[n1][n2] = 1
-    graph[n2][n1] = 1
-
-    return graph
 
 
 if __name__ == '__main__':
