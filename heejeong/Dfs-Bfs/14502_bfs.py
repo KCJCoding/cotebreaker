@@ -55,7 +55,7 @@ def makeWall(cnt):
                 백트래킹 - (다른 세 위치를 골라야하기 때문에)
                 다시 벽을 세우고 BFS를 수행하고 벽을 지우는 방식을 반복
                 '''
-               
+
 
 
 n, m = map(int, input().split())  # n 세로, m 가로
