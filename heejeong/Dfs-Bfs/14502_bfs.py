@@ -57,6 +57,7 @@ def makeWall(cnt):
                 '''
 
 
+
 n, m = map(int, input().split())  # n 세로, m 가로
 data = []
 for _ in range(n):
