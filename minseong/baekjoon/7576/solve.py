@@ -1,20 +1,7 @@
 def solve():
     M, N = map(int, input().split())
-    graph = make_graph(N)
-    discovered = scan_grown(graph)
-    print("(graph)")
-    for subgraph in graph:
-        print(subgraph)
-
-    print(f"discovered_bef: {discovered}")
+    graph, discovered = make_graph(N)
     grown_graph, discovered, date = bfs(graph, discovered)
-    #grown_graph, discovered, date = dfs(graph, discovered, date=-1)
-    print("(grown_graph)")
-    for subgraph in grown_graph:
-        print(subgraph)
-
-    print(f"discovered_aft: {discovered}")
-    print(f"date: {date}")
 
     if is_all_grown(grown_graph):
         return date
@@ -24,22 +11,19 @@ def solve():
 
 def make_graph(N):
     graph = list()
-
-    for n in range(N):
-        graph.append([int(grown) for grown in input().split()])
-
-    return graph
-
-
-def scan_grown(graph):
     discovered = list()
 
-    for i, subgraph in enumerate(graph):
-        for j, grown in enumerate(subgraph):
-            if grown == 1:
+    for i in range(N):
+        subgraph = list()
+        for j, grown in enumerate(input().split()):
+            int_grown = int(grown)
+            subgraph.append(int_grown)
+            if int_grown == 1:
                 discovered.append((i, j))
 
-    return discovered
+        graph.append(subgraph)
+
+    return graph, discovered
 
 
 def bfs(graph, discovered):
@@ -62,24 +46,6 @@ def bfs(graph, discovered):
         if len(queue_list) < 1:
             date = graph[i][j] - 1
             break
-
-    return graph, discovered, date
-
-
-def dfs(graph, discovered, date):
-    i, j = discovered[-1]
-    xy_list = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-
-    for x, y in xy_list:
-        dx = i + x
-        dy = j + y
-
-        if 0 <= dx < len(graph) and 0 <= dy < len(graph[0]):
-            if graph[dx][dy] == 0:
-                graph[dx][dy] = 1
-                discovered.append((dx, dy))
-                graph, discovered, date = dfs(graph, discovered, date)
-                date += 1
 
     return graph, discovered, date
 
