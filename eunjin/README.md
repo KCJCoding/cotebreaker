@@ -1,2 +1,0 @@
-#EUNJIN!
-## HELLO
