@@ -19,7 +19,6 @@ bool dfs(int x, int y)
 	return false;
 }
 
-
 int main()
 {
 	int result;
@@ -48,4 +47,5 @@ int main()
 	std::cout << result;
 
 	return 0;
+
 }
