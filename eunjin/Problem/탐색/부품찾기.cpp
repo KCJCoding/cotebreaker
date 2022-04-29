@@ -51,6 +51,3 @@ int main()
 		else
 			std::cout << "no \n";
 	}
-
-	return 0;
-}
