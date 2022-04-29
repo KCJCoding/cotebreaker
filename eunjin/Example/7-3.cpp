@@ -12,9 +12,9 @@ int binary_search(std::vector<int> &arr, int start, int end, int target)
 		if (arr[middle] == target)
 			return middle;
 		else if (arr[middle] > target)
-			end = middle + 1;
+			end = middle - 1;
 		else 
-			start = middle - 1;
+			start = middle + 1;
 	}
 	return -1;
 }
