@@ -25,6 +25,7 @@ int main()
 				d[j] = std::min(d[j], d[j - coin[i]] + 1);
 		}
 	}
+
 	if (d[M] == std::numeric_limits<int>::max())
 		std::cout << -1;
 	else
