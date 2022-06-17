@@ -32,6 +32,5 @@ int main()
 		std::cout << str[i] << '\n';
 	}
 
-
 	return 0;
 }
