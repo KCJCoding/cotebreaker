@@ -20,7 +20,7 @@ bool check(int x)
 
 void nqueen(int x)
 {
-	if (x == N)
+	if (x == N) //한 번 다 놨다면 경우의 수 증가 
 	{
 		answer++;
 		return;
@@ -30,9 +30,9 @@ void nqueen(int x)
 		for (int i = 0; i < N; i++)
 		{
 			queen[x] = i; //현재 행 배열 위치에 i (열) 놓기 -> 퀸 놓기
-			if (check(x)) //현재 행 열 위치가 괜찮다면 다음 행에 퀸 놓기 
+			if (check(x)) //현재 행 열 위치가 괜찮다면 다음 행에 퀸 놓기 (가지치기)
 			{
-				nqueen(x + 1);
+				nqueen(x + 1); // 다음 행 퀸 놓기 
 			}
 		}
 	}
