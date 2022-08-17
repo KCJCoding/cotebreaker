@@ -22,7 +22,7 @@ for i in range(N):
 
 dx = [-1, 1, 0, 0]
 dy = [0, 0, 1, -1]
-cnt_ripen = len(tomato_ripen) # 처음에 입력받은 익은 토마토위치 개수
+cnt_ripen = len(q) # 처음에 입력받은 익은 토마토위치 개수
 
 while q:
     now_x, now_y = q.popleft()

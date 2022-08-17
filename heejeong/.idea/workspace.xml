@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fb7ab2d-62aa-432c-9b0b-4767816dd3ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../eunjin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/3-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/4-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/4-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/7-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/7-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/7-3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/8-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/8-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Example/8-4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/1로만들기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/BOJ/1003.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/BOJ/11726.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/BOJ/2748.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/개미전사.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/바닥공사.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Dynamic Programming/효율적인화폐구성.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/11047.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/11399.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/1931.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/1이될때까지.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/BOJ/11047.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/BOJ/11399.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/BOJ/1931.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/PGS/체육복.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/숫자카드게임.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/Greedy/큰수의법칙.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/etc/15802.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/etc/2003.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/11654.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/14503.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/2438.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/2581.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/2908.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/BOJ/8958.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/PGS/가운데글자가져오기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/PGS/기능개발.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/PGS/더맵게.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/PGS/프린터.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/PGS/핸드폰번호가리기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/구현/SW Expert Academy/14178.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/완전탐색/BOJ/9095.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/완전탐색/BOJ/9663.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/완전탐색/PGS/모의고사.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/자료구조/11279.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/자료구조/1655.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/BOJ/10989.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/BOJ/1181.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/BOJ/1427.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/BOJ/2309.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/BOJ/2751.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/정렬/PGS/k번째수.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/1012.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/1103.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/1260.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/14502.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/2178.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/2606.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/2667.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/7562.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/BOJ/7576.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/DFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/PGS/타겟넘버.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/Stack_DFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/미로탈출.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BFS-DFS/음료수얼려먹기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/BOJ/1072.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/BOJ/10816.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/BOJ/1654.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/BOJ/2805.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/떡볶이떡만들기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/BinarySearch/부품찾기.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/Stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/탐색/queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/Problem/트리/1191.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eunjin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_1260.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_2178.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_2606(BFS).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_2606(DFS).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_2667.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_7562.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/BOJ_7576.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/DFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/미로 탈출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DFS와 BFS/음료수 얼려 먹기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DP/1로 만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DP/개미 전사.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DP/바닥 공사.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/DP/효율적인 화폐 구성.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/구현/게임 개발.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/구현/왕실의 나이트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/1이 될 때까지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/BOJ_11047.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/BOJ_11399.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/BOJ_1931.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/숫자 카드 게임.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/그리디/큰 수의 법칙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/이진탐색/떡볶이 떡 만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heeseung/이진탐색/부품 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1003/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1003/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/11047/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/11047/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/11399/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/11399/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1260/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1260/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1260/solve_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1260/solve_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1931/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/1931/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2178/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2178/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2606/Figure 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2606/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2606/solve_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2606/solve_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2667/Figure 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2667/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/2667/solve_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/7576/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/7576/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/9184/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/9184/solve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/baekjoon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/leetcode/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minseong/programmers/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2DRq723hXmzZOqfi4qoqEljOjmx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HJ_ALGO" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fb7ab2d-62aa-432c-9b0b-4767816dd3ac" name="Default Changelist" comment="" />
+      <created>1660672094476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660672094476</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
